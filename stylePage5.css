@@ -1,0 +1,23 @@
+div {
+  font-size: 18px; }
+  div p {
+    color: green; }
+  div ul {
+    color: red; }
+
+.left, .right {
+  width: 200px;
+  height: 200px;
+  font-size: 18px;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  color: blue; }
+
+.left {
+  background-color: red; }
+
+.right {
+  background-color: purple; }
+
+/*# sourceMappingURL=stylePage5.css.map */

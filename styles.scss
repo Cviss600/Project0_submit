@@ -1,0 +1,28 @@
+$color: red;
+
+div{
+  font-size: 18px;
+  p{
+    color: green;
+  }
+  ul{
+    color: $color;
+  }
+}
+%message{
+  width: 200px;
+  height: 200px;
+  font-size: 18px;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  color: blue;
+}
+.left{
+  @extend %message;
+  background-color: $color;
+}
+.right{
+  @extend %message;
+  background-color: purple;
+}
